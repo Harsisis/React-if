@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Menu name="Zidane"></Menu>
-      <Menu name="Loïc champion de beyblade"></Menu>
+      <Menu name="Nicolas"></Menu>
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
