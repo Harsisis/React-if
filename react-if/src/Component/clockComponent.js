@@ -1,4 +1,5 @@
 import React from 'react';
+import Moment from 'moment';
 
 export class Clock extends React.Component {
     constructor(props) {
@@ -24,7 +25,7 @@ export class Clock extends React.Component {
     render() {
       return (
         <p className="App-clock">
-          The time is {this.state.time}.
+          The time is {this.state.time} in {this.props.country ? this.props.country : 'unknown'}.
         </p>
       );
     }

@@ -2,6 +2,8 @@ import logo from './Xrounded.svg';
 import './App.css';
 import Menu from './Component/menuComponent'
 import {Clock} from './Component/clockComponent'
+import {Form} from './Component/formComponent'
+import {TempConverter} from './Component/Temperature/tempConverterComponent'
 
 function App() {
   return (
@@ -25,7 +27,11 @@ function App() {
         </a>
       </header>
 
-      <Clock></Clock>
+      <Clock country="france"></Clock>
+
+      <Form></Form>
+
+      <TempConverter></TempConverter>
     </div>
   );
 }
