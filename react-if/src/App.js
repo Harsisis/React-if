@@ -1,9 +1,10 @@
 import logo from './Xrounded.svg';
 import './App.css';
-import Menu from './Component/menuComponent'
-import {Clock} from './Component/clockComponent'
-import {Form} from './Component/formComponent'
-import {TempConverter} from './Component/Temperature/tempConverterComponent'
+import Menu from './Component/menuComponent';
+import {Clock} from './Component/clockComponent';
+import {Form} from './Component/formComponent';
+import {TempConverter} from './Component/Temperature/tempConverterComponent';
+import Game from './Component/TicTacToe/Game';
 
 function App() {
   return (
@@ -32,6 +33,11 @@ function App() {
       <Form></Form>
 
       <TempConverter></TempConverter>
+
+      <div>
+        <Game></Game>
+      </div>
+
     </div>
   );
 }
