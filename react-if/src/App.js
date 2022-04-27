@@ -1,14 +1,18 @@
 import logo from './Xrounded.svg';
 import './App.css';
+import Menu from './Component/menuComponent'
 
 function App() {
   return (
     <div className="App">
+      <Menu name="Zidane"></Menu>
+      <Menu name="Loïc champion de beyblade"></Menu>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           <h1>Hello World!</h1>
-          <h2>This is my fisrt React app</h2>
+          <h2>This is my first React app</h2>
         </div>
 
         <a
