@@ -2,10 +2,8 @@ import Token from './Token'
 
 function Cell(props) {
     return (
-        <div>
-            <a>
-                <Token></Token>
-            </a>
+        <div onClick={props.onTokenClick} style={{width: '100%', height: '100%'}}>
+            <Token token={props.value}></Token>
         </div>
     );
 }
