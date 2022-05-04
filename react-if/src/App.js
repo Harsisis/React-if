@@ -1,15 +1,15 @@
-// import logo from './Xrounded.svg';
+import logo from './Xrounded.svg';
 import './App.css';
-// import Menu from './Component/menuComponent';
-// import {Clock} from './Component/clockComponent';
-// import {Form} from './Component/formComponent';
-// import {TempConverter} from './Component/Temperature/tempConverterComponent';
+import Menu from './Component/Component/menuComponent';
+import {Clock} from './Component/Component/clockComponent';
+import {Form} from './Component/Component/formComponent';
+import {TempConverter} from './Component/Temperature/tempConverterComponent';
 import Game from './Component/TicTacToe/Game';
 
 function App() {
   return (
     <div className="App">
-      {/* {["Zidane", "Nicolas", "Loïc champion de Beyblades"].map((username) => (<Menu name={username}></Menu>))}
+      {["Zidane", "Nicolas", "Loïc champion de Beyblades"].map((username) => (<Menu name={username}></Menu>))}
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -32,7 +32,7 @@ function App() {
 
       <Form></Form>
 
-      <TempConverter></TempConverter> */}
+      <TempConverter></TempConverter>
 
       <div>
         <Game></Game>
