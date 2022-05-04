@@ -2,7 +2,7 @@
 function PlayerTurn(props) {
     return (
         <div>
-            <h3>Turn {props.turn}</h3>
+            <h3>{props.turn}</h3>
         </div>
     );
 }

@@ -64,16 +64,3 @@ function calculateWinner(squares) {
     }
     return null;
   }
-
-
-// function Game(props) {
-//     return (
-//         <div>
-//             <PlayerTurn></PlayerTurn>
-//             <Grid></Grid>
-//             <PlayerWin></PlayerWin>
-//         </div>
-//     );
-// }
-
-// export default Game;
